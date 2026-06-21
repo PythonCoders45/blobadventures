@@ -151,7 +151,7 @@ Object.keys(sprites).forEach(key => { sprites[key].onload = () => { loadedSprite
 
 // --- Player Object (With OvO Physics Moves) ---
 const player = {
-    x: 100, y: 300, baseWidth: 36, baseHeight: 36, width: 36, height: 36, vx: 0, vy: 0,
+    x: 100, y: 300, baseWidth: 36, baseHeight: 36, width: 66, height: 66, vx: 0, vy: 0,
     accel: 0.6, maxSpeed: 6.5, friction: 0.82, jumpForce: 12.5,
     grounded: false, facingLeft: false, isSliding: false, isDiving: false, slideTimer: 0,
     animFrame: 0, animTimer: 0,
